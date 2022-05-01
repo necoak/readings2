@@ -1,0 +1,17 @@
+site_name: readinggs
+theme: readthedocs
+
+nav:
+  - Home:  index.md
+
+language: ja
+
+markdown_extentions:
+  - attr_list: true
+
+  - clodehilite:
+    linenums: true
+    use_pygments: false
+
+  - toc:
+    permalink: true
